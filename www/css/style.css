@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+#pad {
+    width: 30%;
+    height: 100px;
+    position:absolute;
+    top:auto;
+    left:auto;
+    bottom: 130px;
+    right: 40px;
+}
+
+#r {
+    position:relative;
+    width: 33%;
+    left:66%;
+    top: 33px;
+    height: 33px;
+    border:1px solid black;
+}
+
+#l {
+    position:relative;
+    width: 33%;
+    height: 33px;
+    border:1px solid black;
+}
+
+#d {
+    position:relative;
+    top: -33%;
+    width: 33%;
+    left:33%;
+    height: 33px;
+    border:1px solid black;
+}
+
+#u {
+    position:relative;
+    top: -66%;
+    width: 33%;
+    left:33%;
+    height: 33px;
+    border:1px solid black;
+}
+
+ul {
+    width:2500px;
+    height:2500px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width:50px;
+    height: 50px;
+    border:1px solid black;
+    list-style-type: none;
+    display:inline-block;
+    box-sizing: border-box;
+}
